@@ -14,7 +14,7 @@ const Post = ({ post }) => {
             <Link to={`/post/${id}`}>Show me details</Link>
             <Link to={`/post/${id}`}><button>Show me details</button></Link>
             <button onClick={handlerNavigate}>with even handler</button>
-
+<button>something</button>
         </div>
     );
 };
